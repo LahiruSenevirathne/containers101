@@ -1,0 +1,3 @@
+psycopg 
+pytest 
+testcontainers[postgres]
