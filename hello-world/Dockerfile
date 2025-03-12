@@ -1,6 +1,7 @@
 # Base image
 FROM python:3.9
 
+RUN apt install wget 
 # Copy app files
 WORKDIR /app
 COPY . /app

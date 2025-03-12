@@ -82,13 +82,15 @@ Packaging an application and its dependencies together in a lightweight, portabl
 Think of containers as **shipping containers** for applications: standardized, portable, and efficient.
 
 ---
+
+# Virtualization vs Containerization
+![center](assets/vm_vs_containers.png)
+
+---
+
 # Cgroups and Namespaces
 |  ![center](assets/cgroups_namespaces.png) | ![center](assets/cgroups.png)  |
 |---|---|
-
----
-# Virtualization vs Containerization
-![center](assets/vm_vs_containers.png)
 
 ---
 
@@ -302,6 +304,11 @@ The Container Structure Tests provide a powerful framework to validate the struc
 Github: [container-structure-test](https://github.com/GoogleContainerTools/container-structure-test)
 
 ---
+# TestContainers 
+
+[TestContainers](https://testcontainers.com/): Testcontainers is an open source library for providing throwaway, lightweight instances of databases, message brokers, web browsers, or just about anything that can run in a Docker container.
+
+---
 # Recap
 
 ### Key Takeaways:
@@ -322,3 +329,4 @@ Github: [container-structure-test](https://github.com/GoogleContainerTools/conta
 
 ### Resources:
 - [Docker Documentation](https://docs.docker.com/)
+- [Github Repo](https://github.com/LahiruSenevirathne/containers101/tree/main)

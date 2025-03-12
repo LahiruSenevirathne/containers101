@@ -1,6 +1,7 @@
 import os
 import pytest
 from testcontainers.postgres import PostgresContainer
+import time
 
 from students import students
 
@@ -30,6 +31,7 @@ def setup_data():
 
 
 def test_get_all_students():
+  time.sleep(10)
   students.create_student("Benjamin", "benjamin@gmail.com", "Male")
   students.create_student("Max", "max@gmail.com", "Male")
   students_list = students.get_all_students()
